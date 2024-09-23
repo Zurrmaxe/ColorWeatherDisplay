@@ -1,12 +1,14 @@
-//this is a simple test for the LGFX-Grafik and TFT-Libarys
-
+//This is a simple test for the LGFX-Grafik and TFT-Libarys and the BME280
+//Use it, before you load the main code
+//so you can find errors in the libarys and IDE-settings
+//Connect theBME280 to SDA 19 and SCL 19 !
 
 
 #include "TAMC_GT911.h"
 #include <Arduino.h>
 #include "xbm.h"
-#define TOUCH_SDA 19
-#define TOUCH_SCL 20
+#define TOUCH_SDA 19  // This is for BME 280
+#define TOUCH_SCL 20  // This is for BME 280
 #define TOUCH_INT -1
 #define TOUCH_RST 38
 #define TOUCH_WIDTH 800
