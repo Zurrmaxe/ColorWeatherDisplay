@@ -1,4 +1,5 @@
-https://github.com/Zurrmaxe/ColorWeatherDtu/blob/main/Colorstation.jpg
+![Colorstation](https://github.com/user-attachments/assets/abc309b8-a76e-4789-b62d-9e85a6fdbd5d)
+
 
 Achtung ! Dieses ist eine Beta-Version und noch nicht fertig. Sie wird laufend erweitert. Es sind noch  Fehler im Script und müssen noch behoben werden ! 
 Wenn etwas nicht funktitoniert, bitte selber anpassen und ändern. 
