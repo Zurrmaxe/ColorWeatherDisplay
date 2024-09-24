@@ -35,23 +35,12 @@ void setup() {
   bool status;
   status = bme.begin(0x76);
   display.init();
-  //tp.begin();
+  
   display.setBrightness(150);
   sprite.createSprite(400,480);
 }
 
 void loop() {
-  /*
-        tp.read();
-        if (tp.isTouched){
-        for (int i=0; i<tp.touches; i++){
-        display.drawRect(300, 300, 100, 110, 4);
-        }
-        }
-        else {
-        display.drawRect(300, 300, 100, 110, 2);
-        }
-     */
   display.setCursor(0, 0);
   display.setTextSize(3);
   display.print("Temperature = ");
@@ -70,7 +59,7 @@ void loop() {
   
   sprite.fillSprite(0);  // init empty sprite
   sprite.setTextSize(4);
-  sprite.setTextColor(2);
+  sprite.setTextColor(TFT_GREEN);
   sprite.setCursor(60, 10);
   sprite.setTextColor(TFT_RED);
   sprite.drawString("Test", 30, 50);
