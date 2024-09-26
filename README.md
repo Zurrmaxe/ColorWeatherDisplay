@@ -1,4 +1,4 @@
-Hiinweis : Das Programm befindet sich noch bei mir in der Testphase und wird hier vermutlich am Wochenende hochgeladen. 
+Hinweis : Das Programm befindet sich noch in der Testphase und wird hier vermutlich am Wochenende hochgeladen. 
 
 ![Colorstation](https://github.com/user-attachments/assets/abc309b8-a76e-4789-b62d-9e85a6fdbd5d)
 
@@ -54,7 +54,10 @@ Die erforderlichen Daten der OpenDTUs werden als JSON-File ausgelesen und angeze
 
 Weiterhin befindet sich im unteren Bereich des gelben Bereiches eine Anzeige für die Innen- und Aussentemperatur. Es werden DHT11 als Sensoen verwendet.
 Ein Sensor ist direkt am Display angeschlossen, der anderer DHT11 wird über einen ESP32 und ESP_NOW (WLAN) mit dem Display verbunden.
-Infos u.a. https://www.electrosoftcloud.com/en/esp32-wifi-and-esp-now-simultaneously/
+
+Infos zu ESP_NOW:
+https://www.electrosoftcloud.com/en/esp32-wifi-and-esp-now-simultaneously/
+https://randomnerdtutorials.com/esp32-esp-now-wi-fi-web-server/
 
 Der Sketch darf ausschließlich für private, nicht kommerzielle Zwecke verwendet werden. 
 Jegliche gewerbliche Verwendung ist untersagt. Die weiteren Rechte der anderen Autoren bleiben hiervon unberührt. 
