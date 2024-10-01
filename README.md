@@ -2,7 +2,6 @@ Hinweis : Das Programm befindet sich noch in der Testphase und wird ständig erw
 
 ![Colorstation](https://github.com/user-attachments/assets/abc309b8-a76e-4789-b62d-9e85a6fdbd5d)
 
-https://github.com/Zurrmaxe/ColorWeatherDtu/blob/e67c8bc6a5290927bb1c6b5d6dedf94df8ceab92/DHT11Display.jpg
 
 Achtung ! Dieses ist eine Beta-Version und noch nicht fertig. Sie wird laufend erweitert. Es sind noch  Fehler im Script und müssen noch behoben werden ! 
 Wenn etwas nicht funktitoniert, bitte selber anpassen und ändern. 
