@@ -1,4 +1,4 @@
-Hinweis : Das Programm befindet sich noch in der Testphase und wird hier vermutlich am Wochenende hochgeladen. 
+Hinweis : Das Programm befindet sich noch in der Testphase und wird ständig erweitert. ESP_NOW funktioniert noch nicht ! 
 
 ![Colorstation](https://github.com/user-attachments/assets/abc309b8-a76e-4789-b62d-9e85a6fdbd5d)
 
@@ -21,9 +21,13 @@ Weitere Einstellungen sind unter "Settings" zu finden.
 
 Zum eigentlichen Code :
 
-Dieser Sketch ist eine Modifikation der bekannten Wetterstation von G6EJD.
+Dieser Sketch ist eine Modifikation der bekannten Wetterstation von G6EJD. 
 
-https://github.com/G6EJD/ESP32-e-Paper-Weather-Display. All Credits goes to G6EJD. This software, the ideas and concepts is Copyright (c) David Bird 2014 and beyond.  All rights to this software are reserved. More information about the weather-station on his Github-Site.
+Daher sollte man sich die entsprechende Seite einmal durchlesen um alle Funktionen zu begreifen.
+
+https://github.com/G6EJD/ESP32-e-Paper-Weather-Display. 
+
+All Credits goes to G6EJD. This software, the ideas and concepts is Copyright (c) David Bird 2014 and beyond.  All rights to this software are reserved. More information about the weather-station on his Github-Site.
 
 Diese Wetterstation wurde von mir an das 7-Zoll Farbdisplay ESP32-8048S070 angepasst.
 
@@ -45,7 +49,7 @@ Diese Solaranlage besteht aus zwei Hoymiles HMT2250T Invertern und ein Shelly 3E
 Die Hoymiles-Inverter werden zusammen mit zwei OpenDTU-ESP32 (Nulleinspeisung) betrieben. 
 Infos: https://github.com/tbnobody/OpenDTU  und https://github.com/helgeerbe/OpenDTU-OnBattery
 
-Es wird die IP der OpenDTU-ESP32 und die jeweilige Inverter-Nummer benötigt.
+Es wird die IP der OpenDTU-ESP32 und die jeweilige Inverter-Nummer benötigt. 
 
 Mein Code im Script funktioniert ausschließlich nur mit den OpenDTU-Battery den Hoymiles HMT2250T und dem Shelly 3EM ! 
 Sollten andere Geräte verwendet werden, ist der Code entsprechend anzupassen ! Hierfür kann ich keinen Service und Hilfe anbieten ! 
@@ -56,8 +60,7 @@ Weiterhin befindet sich im unteren Bereich des gelben Bereiches eine Anzeige fü
 Ein Sensor ist direkt am Display angeschlossen, der anderer DHT11 wird über einen ESP32 und ESP_NOW (WLAN) mit dem Display verbunden.
 
 Infos zu ESP_NOW:
-https://www.electrosoftcloud.com/en/esp32-wifi-and-esp-now-simultaneously/
-https://randomnerdtutorials.com/esp32-esp-now-wi-fi-web-server/
+ESP_NOW ist noch nicht lauffähig. 
 
 Der Sketch darf ausschließlich für private, nicht kommerzielle Zwecke verwendet werden. 
 Jegliche gewerbliche Verwendung ist untersagt. Die weiteren Rechte der anderen Autoren bleiben hiervon unberührt. 
