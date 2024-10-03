@@ -16,8 +16,8 @@ unsigned long delayTime;
 WebServer server(80);
 
 
-const char *SSID = "7490Keller";
-const char *PWD = "nohnw122";
+const char *SSID = "xxxxxx";
+const char *PWD = "xxxxxx";
 
 
 float temperature;
