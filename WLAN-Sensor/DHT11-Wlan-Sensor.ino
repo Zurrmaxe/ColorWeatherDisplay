@@ -1,3 +1,5 @@
+// You can use as much sensors you want. Like Rain , Sund or Wind. I must only change the code 
+
 #include <Arduino.h>
 #include <WebServer.h>
 #include <ArduinoJson.h>
@@ -21,6 +23,7 @@ float humidity;
 float rain = 111;  // only placeholders for future projects 
 float wind = 222;  // only placeholders for future projects
 float pressure = 333; // only placeholders for future projects
+//  next sensor....
 unsigned long measureDelay = 3000;                //    NOT LESS THAN 2000!!!!!   
 unsigned long lastTimeRan;
 
@@ -62,7 +65,7 @@ void getValues() {
   addJsonObject("rain", rain, "mm");
   addJsonObject("wind", wind, "m");
   addJsonObject("pressure", pressure, "hPa");
-  
+  //next sensor....
   serializeJson(jsonDocument, buffer);
   server.send(200, "application/json", buffer);
 }
@@ -98,8 +101,10 @@ void loop() {
   if (millis() > lastTimeRan + measureDelay)  {
     humidity = dht.getHumidity();
     temperature = dht.getTemperature();
-    float humi  = dht.getHumidity();
+    //
+    float humi  = dht.getHumidity();//only fpr Serial.print()
     float tempC = dht.getTemperature();
+    //next sensor
     // put here the code to get the information about Rain and Wind
     Serial.print("Humidity");
     Serial.println(humi);
