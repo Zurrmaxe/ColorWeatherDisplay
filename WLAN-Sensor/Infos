@@ -1,0 +1,7 @@
+Hier noch einige Hintergrundinformation zur Datenübertragung mit WLAN:
+
+https://randomnerdtutorials.com/esp32-http-get-open-weather-map-thingspeak-arduino/
+
+https://www.techrm.com/how-to-build-a-rest-api-server-with-esp32/
+
+Da könnt ihr lesen, wie die Übertragung funktioniert und selber änderungen an dem Code durchführen
