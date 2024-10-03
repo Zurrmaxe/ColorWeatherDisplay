@@ -11,8 +11,8 @@ DHTesp dht;
 WebServer server(80);
 
 
-const char *SSID = "7490Keller";
-const char *PWD = "nohnw122";
+const char *SSID = "xxxxxx";
+const char *PWD = "xxxxxxx";
 
 
 float temperature;
