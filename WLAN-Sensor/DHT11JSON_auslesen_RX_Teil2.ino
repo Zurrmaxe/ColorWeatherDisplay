@@ -15,8 +15,8 @@
 #include <HTTPClient.h>
 #include <Arduino_JSON.h>
 
-const char* ssid = "7490Keller";
-const char* password = "nohnw122";
+const char* ssid = "xxxxxx";
+const char* password = "xxxxx";
 // THE DEFAULT TIMER IS SET TO 10 SECONDS FOR TESTING PURPOSES
 // For a final application, check the API call limits per hour/minute to avoid getting blocked/banned
 unsigned long lastTime = 0;
