@@ -1,3 +1,5 @@
+// Only to use with a BME280 Sensor
+
 #include <Arduino.h>
 #include <WebServer.h>
 #include <ArduinoJson.h>
@@ -23,6 +25,7 @@ const char *PWD = "xxxxxx";
 float temperature;
 float humidity;
 float pressure;
+//next Sensor....
 unsigned long measureDelay = 3000;                //    NOT LESS THAN 2000!!!!!   
 unsigned long lastTimeRan;
 
