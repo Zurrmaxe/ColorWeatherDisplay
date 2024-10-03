@@ -1,10 +1,10 @@
 // Change to your WiFi credentials
-const char* ssid     = "7490Keller";     // WiFi SSID to connect to
-const char* password = "nohnw122"; // WiFi password needed for the SSID
-const char* aDTU = "http://192.168.178.191/api/livedata/status?inv=138290780486.json"; // for the first OpenDTU ESP32
-const char* bDTU = "http://192.168.178.169/api/livedata/status?inv=138291500324.json"; // for the second OpenDTU ESP32
-const char* shelly = "http://192.168.178.200/status"; //  for the Shelly 3EM
-const char* sensora = "http://192.168.178.154/getValues"; //  for the DHT11-WLAN-Sensor
+const char* ssid     = "xxxxxx";     // WiFi SSID to connect to
+const char* password = "xxxxx"; // WiFi password needed for the SSID
+const char* aDTU = "http://192.xxxxx/api/livedata/status?inv=13829078xxxxx.json"; // for the first OpenDTU ESP32
+const char* bDTU = "http://192.xxxxxx/api/livedata/status?inv=13829150xxx4.json"; // for the second OpenDTU ESP32
+const char* shelly = "http://192.xxxxxxx/status"; //  for the Shelly 3EM
+const char* sensora = "http://192.xxxx/getValues"; //  for the DHT11-WLAN-Sensor
 // Use your own API key by signing up for a free developer account at https://openweathermap.org/
 //String apikey       = "4fcbe01f9196f4ef9e7da86fafe34084";
 String apikey         = "1e21f58225f9c4cfb1859dee54476716";                  // See: https://openweathermap.org/  // It's free to get an API key, but don't take more than 60 readings/minute!
