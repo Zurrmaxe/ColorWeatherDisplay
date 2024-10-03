@@ -57,10 +57,22 @@ Sollten andere Geräte verwendet werden, ist der Code entsprechend anzupassen ! 
 Die erforderlichen Daten der OpenDTUs werden als JSON-File ausgelesen und angezeigt. Im Internet gibt es genug Anleitungen dazu, wie dieses im Einzelnen umzusetzen ist und ensprechend angepasst werden kann.
 
 Weiterhin befindet sich im unteren Bereich des gelben Bereiches eine Anzeige für die Innen- und Aussentemperatur. Es werden DHT11 als Sensoen verwendet.
-Ein Sensor ist direkt am Display angeschlossen, der anderer DHT11 wird über einen ESP32 und ESP_NOW (WLAN) mit dem Display verbunden.
+Ein Sensor ist direkt am Display angeschlossen, der anderer DHT11 wird über einen ESP32 und dem WLAN  mit dem Display verbunden.
 
-Infos zu ESP_NOW:
-ESP_NOW ist noch nicht lauffähig. 
+Der Sensor besteht aus einem ESP32-WROOM mit einem DHT11 oder BME280 Sensor. Die Daten werden über das Funknetz zum Display übertragen und dort ausgewertet.
+Man kann auch andere Sensoren an dem ESP32-WROOM anschließen und die Werte überragen lassen. 
+
+So wäre es möglich, neben Wind und Luftfdruck auch Regendaten zu übertragen. Auch die Lichtstärke könnte gemessen werden.
+Ebenso kann man mehrere Sensoren benutzen. Fürs Wohnzimmer, den Keller , die Garage oder das Gartenhaus.
+
+Den Ideen sind keine Grenzen gesetzt.
+
+Damit ist mein Display universell für alles im Haushalt einsetzbar. Mit den WLAN-Sensoren könnten auch Schaltbefehle ausgelöst werden. 
+Dazu must der Code entsprechend erweitert werden.
+
+Beispiel: Sensor meldet Regen -> Display. Display -> Sensor Rolladen herunter.
+
+Wichtiger Hinweis:
 
 Der Sketch darf ausschließlich für private, nicht kommerzielle Zwecke verwendet werden. 
 Jegliche gewerbliche Verwendung ist untersagt. Die weiteren Rechte der anderen Autoren bleiben hiervon unberührt. 
