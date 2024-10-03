@@ -6,17 +6,16 @@ const char* bDTU = "http://192.xxxxxx/api/livedata/status?inv=13829150xxx4.json"
 const char* shelly = "http://192.xxxxxxx/status"; //  for the Shelly 3EM
 const char* sensora = "http://192.xxxx/getValues"; //  for the DHT11-WLAN-Sensor
 // Use your own API key by signing up for a free developer account at https://openweathermap.org/
-//String apikey       = "4fcbe01f9196f4ef9e7da86fafe34084";
-String apikey         = "1e21f58225f9c4cfb1859dee54476716";                  // See: https://openweathermap.org/  // It's free to get an API key, but don't take more than 60 readings/minute!
+String apikey         = "xxxxxxxxxxxxxxxxxxxxxxxxxxx";                  // See: https://openweathermap.org/  // It's free to get an API key, but don't take more than 60 readings/minute!
 const char server[] = "api.openweathermap.org";
 //http://api.openweathermap.org/data/2.5/weather?q=Melksham,UK&APPID=your_OWM_API_key&mode=json&units=metric&cnt=1   // Example API call for weather data
 //http://api.openweathermap.org/data/2.5/forecast?q=Melksham,UK&APPID=your_OWM_API_key&mode=json&units=metric&cnt=40 // Example API call for forecast data
 //Set your location according to OWM locations
 
-String LAT              = "52.51";                         // Home location Latitude
-String LON              = "6.85";                         // Home location Longitude
+String LAT              = "51.51";                         // Home location Latitude
+String LON              = "6.35";                         // Home location Longitude
 
-String City             = "Emlichheim";                      // Your home city See: http://bulk.openweathermap.org/sample/
+String City             = "xxxxxxxxx";                      // Your home city See: http://bulk.openweathermap.org/sample/
 String Country          = "DE";                            // Your _ISO-3166-1_two-letter_country_code country code, on OWM find your nearest city and the country code is displayed
                                                            // https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
 String Language         = "DE";                            // NOTE: Only the weather description is translated by OWM
