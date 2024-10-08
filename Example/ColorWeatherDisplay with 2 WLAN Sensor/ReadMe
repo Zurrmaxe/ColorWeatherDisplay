@@ -1,0 +1,7 @@
+Bitte vorher lesen !
+
+Alles sind nur experimentelle Versuche und keine fertigen Systeme !
+
+Diese Version hat zwei WLAN-Sensoren. Der erste Sensor ist für Temperatur, Luftdruck, Luftfeuchtigkeit und Lichtstärke zuständig und sollte außerhalb des Gebäudes angebracht werden.
+Die Lichtstärke ist nicht kalibriert undf dient nur zu Versuchszwecken. Der andere WLAN_Sensor kann im Haus, Keller oder Garage eingesetzt werden.
+Die Daten der Sensoren werden im Display angezeigt.
