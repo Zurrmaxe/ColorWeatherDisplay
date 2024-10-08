@@ -71,7 +71,12 @@ Den Ideen sind keine Grenzen gesetzt.
 Damit ist mein Display universell für alles im Haushalt einsetzbar. Mit den WLAN-Sensoren könnten auch Schaltbefehle ausgelöst werden. 
 Dazu must der Code entsprechend erweitert werden. (Http-Post). 
 
-Beispiel: Sensor meldet Regen -> Display. Display -> Sensor Rolladen herunter.
+Hierzu bitte folgende Hinweise lesen:
+
+https://microcontrollerslab.com/esp32-rest-api-web-server-get-post-postman/
+
+
+
 
 Wichtiger Hinweis:
 
