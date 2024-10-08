@@ -1,9 +1,9 @@
-Hinweis : Das Programm befindet sich noch in der Testphase und wird ständig erweitert. ESP_NOW funktioniert noch nicht ! 
+Hinweis : Das Programm befindet sich noch in der Testphase und wird ständig erweitert. Es ist keine fertige Version sondern nur eine Versuch, verschiedene Anwendungen auf einem Display zusammenzufassen. Es sind noch einige Fehler vorhanden.
 
 ![Colorstation](https://github.com/user-attachments/assets/abc309b8-a76e-4789-b62d-9e85a6fdbd5d)
 
 
-Achtung ! Dieses ist eine Beta-Version und noch nicht fertig. Sie wird laufend erweitert. Es sind noch  Fehler im Script und müssen noch behoben werden ! 
+Achtung ! Dieses sind Test-Versionen und noch nicht fertig. Sie werden laufend erweitert. Es sind noch Fehler im Script und müssen noch behoben werden ! 
 Wenn etwas nicht funktitoniert, bitte selber anpassen und ändern. 
 
 Grundlage für ein funktionierendes Display sind folgende Internetseiten:
@@ -59,16 +59,17 @@ Die erforderlichen Daten der OpenDTUs werden als JSON-File ausgelesen und angeze
 Weiterhin befindet sich im unteren Bereich des gelben Bereiches eine Anzeige für die Innen- und Aussentemperatur. Es werden DHT11 als Sensoen verwendet.
 Ein Sensor ist direkt am Display angeschlossen, der anderer DHT11 wird über einen ESP32 und dem WLAN  mit dem Display verbunden.
 
-Der Sensor besteht aus einem ESP32-WROOM mit einem DHT11 oder BME280 Sensor. Die Daten werden über das Funknetz zum Display übertragen und dort ausgewertet.
+Die Sensoren bestehen aus einem ESP32-WROOM mit einem DHT11, DHT22 oder BME280 Sensor. Die Daten werden über das WLAN-Funknetz zum Display übertragen und dort ausgewertet.
 Man kann auch andere Sensoren an dem ESP32-WROOM anschließen und die Werte überragen lassen. 
 
-So wäre es möglich, neben Wind und Luftfdruck auch Regendaten zu übertragen. Auch die Lichtstärke könnte gemessen werden.
-Ebenso kann man mehrere Sensoren benutzen. Fürs Wohnzimmer, den Keller , die Garage oder das Gartenhaus.
+So wäre es möglich, neben Wind und Luftfdruck auch Regendaten zu übertragen. Auch die Lichtstärke könnte gemessen werden. Dazu habe ich einmal einen einfachen LDR zu testen eingebaut.
+Ebenso kann auch man mehrere Sensoren benutzen. 
+Eine fürs Wohnzimmer, einen für den Keller , die Garage oder das Gartenhaus.
 
 Den Ideen sind keine Grenzen gesetzt.
 
 Damit ist mein Display universell für alles im Haushalt einsetzbar. Mit den WLAN-Sensoren könnten auch Schaltbefehle ausgelöst werden. 
-Dazu must der Code entsprechend erweitert werden.
+Dazu must der Code entsprechend erweitert werden. (Http-Post). 
 
 Beispiel: Sensor meldet Regen -> Display. Display -> Sensor Rolladen herunter.
 
