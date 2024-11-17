@@ -75,6 +75,9 @@ Hierzu bitte folgende Hinweise lesen:
 
 https://microcontrollerslab.com/esp32-rest-api-web-server-get-post-postman/
 
+Hier mein neues Display, diesmal ohne die Solarunterstüzung.
+Dafür mit einer Anzeige der Wolkendecke und eine größere Niederschlagsanzeige.
+Angeschlossen könne auch hier wieder diverse Sensoren auf WLAN-Basis.
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/8b697f77b995de32f66945a14df8c7643e653e5d/neue%20version.jpg)
 
