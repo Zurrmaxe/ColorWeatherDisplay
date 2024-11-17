@@ -76,7 +76,7 @@ Hierzu bitte folgende Hinweise lesen:
 https://microcontrollerslab.com/esp32-rest-api-web-server-get-post-postman/
 
 
-https://github.com/Zurrmaxe/ColorWeatherDtu/blob/8b697f77b995de32f66945a14df8c7643e653e5d/neue%20version.jpg
+![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/8b697f77b995de32f66945a14df8c7643e653e5d/neue%20version.jpg)
 
 Wichtiger Hinweis:
 
