@@ -1,0 +1,9 @@
+Dieses ist mein neues Display,allerdings ohne Anzeige von Daten eines Solarinverters.
+Auch dieses Display ist noch in der Entwicklung und noch nicht ganz fertig.
+Gelegentlich hängt es sich auf und muss neu gestarted werden.
+Die Wetterdaten werden ca. alle 30 Minuten erneuert.
+Neu hinzugefügt wurde eine Anzeige für die Wolkendichte. Somit kann man auch erkennen, wann die Sonne vorhanden ist.
+Es können drei Sensoren mit WLAN angeschlossen werden.
+Je nach Sensor ( DHT11/DHT22/BME280 o.ä.) müssen die Scripe entsprechend angepasst werden.
+Keine Garantie und Gewährleistung und Haftung
+Viel Spass.
