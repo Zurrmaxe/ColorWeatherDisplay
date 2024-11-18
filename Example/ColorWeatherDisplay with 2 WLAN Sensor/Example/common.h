@@ -115,14 +115,11 @@ bool obtain_wx_data(WiFiClient& client, const String& RequestType) {
   const String units = (Units == "M" ? "metric" : "imperial");
   client.stop(); // close connection before sending a new request
   HTTPClient http;    
-  // Update for API 3.0 June '24
-  //String uri = "/data/3.0/onecall?lat=" + LAT + "&lon=" + LON + "&appid=" + apikey + "&mode=json&units=" + units + "&lang=" + Language;
   String uri = "/data/2.5/" + RequestType + "?lat=" + LAT + "&lon=" + LON + "&appid=" + apikey + "&mode=json&units=" + units + "&lang=" + Language;
   if(RequestType != "weather")
   {
     uri += "&cnt=" + String(max_readings);
   }
-  //https://api.openweathermap.org/data/2.5/weather?q=Emlichheim,de&APPID=4fcbe01f9196f4ef9e7da86fafe34084&units=metric&lang=de
   http.begin(client, server, 80, uri);
   int httpCode = http.GET();
   if(httpCode == HTTP_CODE_OK) {
