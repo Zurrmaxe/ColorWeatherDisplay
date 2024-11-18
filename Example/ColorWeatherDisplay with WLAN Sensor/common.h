@@ -122,7 +122,6 @@ bool obtain_wx_data(WiFiClient& client, const String& RequestType) {
   {
     uri += "&cnt=" + String(max_readings);
   }
-  //https://api.openweathermap.org/data/2.5/weather?q=Emlichheim,de&APPID=4fcbe01f9196f4ef9e7da86fafe34084&units=metric&lang=de
   http.begin(client, server, 80, uri);
   int httpCode = http.GET();
   if(httpCode == HTTP_CODE_OK) {
