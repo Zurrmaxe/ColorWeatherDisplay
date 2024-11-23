@@ -84,7 +84,7 @@ Dafür mit einer Anzeige der Wolkendecke (neu) und eine größeren Niederschlags
 
 Angeschlossen könne auch hier wieder diverse Sensoren auf WLAN-Basis. 
 
-![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/8b697f77b995de32f66945a14df8c7643e653e5d/neue%20version.jpg)
+![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/41fbac06e993acbfadbc69fdc2b3b2a37730f305/neue%20version.jpg)
 
 Neues Update vom 23.11.24:
 
