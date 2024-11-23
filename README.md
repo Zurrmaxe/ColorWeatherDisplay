@@ -81,6 +81,8 @@ Angeschlossen könne auch hier wieder diverse Sensoren auf WLAN-Basis.
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/8b697f77b995de32f66945a14df8c7643e653e5d/neue%20version.jpg)
 
+![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/48a4b91881186d541d85c6c1ad04bf9b90e9067e/neue%20version.jpg)
+
 Wichtiger Hinweis:
 
 Der Sketch darf ausschließlich für private, nicht kommerzielle Zwecke verwendet werden. 
