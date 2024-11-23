@@ -97,6 +97,9 @@ Es ist noch keine Nachtabschaltung der Displaybeleuchtung eingebaut. Diese folgt
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/1b22db09ef8fcf1b90c9ef2de0ea99b98d7ae641/231124.jpg)
 
+Hier mal eine ältere Version mit Schneefall :
+
+![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/427cf98698a520ca46a23a2bf7bd6773d3827ae4/231124A.jpg)
 
 Achtung ! Wichtiger Hinweis:
 
