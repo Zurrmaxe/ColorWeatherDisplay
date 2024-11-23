@@ -81,7 +81,9 @@ Angeschlossen könne auch hier wieder diverse Sensoren auf WLAN-Basis.
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/8b697f77b995de32f66945a14df8c7643e653e5d/neue%20version.jpg)
 
-![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/48a4b91881186d541d85c6c1ad04bf9b90e9067e/neue%20version.jpg)
+Update 23.11.24:
+![Colorstation new]https://github.com/Zurrmaxe/ColorWeatherDtu/blob/1b22db09ef8fcf1b90c9ef2de0ea99b98d7ae641/231124.jpg)
+
 
 Wichtiger Hinweis:
 
