@@ -81,11 +81,18 @@ Angeschlossen könne auch hier wieder diverse Sensoren auf WLAN-Basis.
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/8b697f77b995de32f66945a14df8c7643e653e5d/neue%20version.jpg)
 
-Update 23.11.24:
-![Colorstation new]https://github.com/Zurrmaxe/ColorWeatherDtu/blob/1b22db09ef8fcf1b90c9ef2de0ea99b98d7ae641/231124.jpg)
+Neues Update vom 23.11.24:
+Die Aufteilung im Display wurde etwas geändert.
+Farben wurden angepasst. Der Regen wird mit blauen Balken angezeigt, Schnee mit weißen Balken.
+Ich hoffe das es funktioniert.
+Die Aktualisierung der Wetterdatten wurde überarbeitet und arbeit jetzt zuverlässiger.
+
+Noch keine Nachtabschaltung des Displays eingebaut.Folgt in der nächsten Version.
+
+![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/1b22db09ef8fcf1b90c9ef2de0ea99b98d7ae641/231124.jpg)
 
 
-Wichtiger Hinweis:
+Achtung ! Wichtiger Hinweis:
 
 Der Sketch darf ausschließlich für private, nicht kommerzielle Zwecke verwendet werden. 
 Jegliche gewerbliche Verwendung ist untersagt. Die weiteren Rechte der anderen Autoren bleiben hiervon unberührt. 
