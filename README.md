@@ -33,7 +33,7 @@ Diese Wetterstation wurde von mir an das 7-Zoll Farbdisplay ESP32-8048S070 angep
 
 https://www.makerfabs.com/sunton-esp32-s3-7-inch-tn-display-with-touch.html
 
-Die Wetteranzeige wird immer alle 30 Minuten durch einen Reset erneuert.
+Die Wetteranzeige wird immer alle 30 Minuten aktualisert
 
 Zusätzlich habe ich den gelben Bereich erschaffen. 
 
@@ -75,19 +75,25 @@ Hierzu bitte folgende Hinweise lesen:
 
 https://microcontrollerslab.com/esp32-rest-api-web-server-get-post-postman/
 
-Hier mein neues Display, diesmal ohne die Solarunterstüzung.
-Dafür mit einer Anzeige der Wolkendecke und eine größere Niederschlagsanzeige.
-Angeschlossen könne auch hier wieder diverse Sensoren auf WLAN-Basis.
+
+Neues Update vom Oktober 2024:
+
+Hier mein neues Display, diesmal ohne (!) die Anzeige der Solaranlage
+
+Dafür mit einer Anzeige der Wolkendecke (neu) und eine größeren Niederschlagsanzeige.
+
+Angeschlossen könne auch hier wieder diverse Sensoren auf WLAN-Basis. 
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/8b697f77b995de32f66945a14df8c7643e653e5d/neue%20version.jpg)
 
 Neues Update vom 23.11.24:
+
 Die Aufteilung im Display wurde etwas geändert.
 Farben wurden angepasst. Der Regen wird mit blauen Balken angezeigt, Schnee mit weißen Balken.
 Ich hoffe das es funktioniert.
 Die Aktualisierung der Wetterdatten wurde überarbeitet und arbeit jetzt zuverlässiger.
 
-Noch keine Nachtabschaltung des Displays eingebaut.Folgt in der nächsten Version.
+Es ist noch keine Nachtabschaltung der Displaybeleuchtung eingebaut. Diese folgt vermutlich mit der nächsten Version.
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/1b22db09ef8fcf1b90c9ef2de0ea99b98d7ae641/231124.jpg)
 
