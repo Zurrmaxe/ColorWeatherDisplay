@@ -101,6 +101,11 @@ Hier mal eine ältere Version mit Schneefall :
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/427cf98698a520ca46a23a2bf7bd6773d3827ae4/231124A.jpg)
 
+Version 24.11.2024 mit kleinern Verbesserungen und Änderungen an der Grafik
+
+![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/ca3d1c1dfed837a4f9e77ad2635e5faaa2ade7b9/241124.jpg)
+
+
 Achtung ! Wichtiger Hinweis:
 
 Der Sketch darf ausschließlich für private, nicht kommerzielle Zwecke verwendet werden. 
