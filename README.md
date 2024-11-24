@@ -61,14 +61,20 @@ Ein Sensor ist direkt am Display angeschlossen, der anderer DHT11 wird über ein
 
 Die Sensoren bestehen aus einem ESP32-WROOM mit einem DHT11, DHT22 oder BME280 Sensor. Die Daten werden über das WLAN-Funknetz zum Display übertragen und dort ausgewertet.
 Man kann auch andere Sensoren an dem ESP32-WROOM anschließen und die Werte überragen lassen. 
-einfacher Aufbau auf Lochrasterkarten reicht aus. Es können alle Sensoren verwendet werden. Applikationen dazu gibt es genügent im Netz.
+einfacher Aufbau auf Lochrasterkarten reicht aus. Es können alle Sensoren verwendet werden.  Applikationen dazu gibt es genügent im Netz.
+So wäre es möglich, neben Wind und Luftfdruck auch Regendaten zu übertragen. Auch die Lichtstärke kann gemessen werden. 
+Dazu habe ich einmal einen einfachen LDR zum testen eingebaut.
+
+Ebenso kann auch man mehrere Sensoren benutzen. Einen fürs Wohnzimmer, einen für den Keller , die Garage oder das Gartenhaus.
+
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/7c9367bba9eeea2a3b3b8ae7899596b93c5ad604/WLAN1.jpg)
 
+Hier der 2.WLAN-Sensor für eine zweite Temperaturanzeige (Garage / Keller pp.)
 
-So wäre es möglich, neben Wind und Luftfdruck auch Regendaten zu übertragen. Auch die Lichtstärke könnte gemessen werden. Dazu habe ich einmal einen einfachen LDR zu testen eingebaut.
-Ebenso kann auch man mehrere Sensoren benutzen. 
-Eine fürs Wohnzimmer, einen für den Keller , die Garage oder das Gartenhaus.
+![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/25f187e03a9b11aa9a980155490c1e9ca6ed305a/WLAN2.jpg)
+
+
 
 Den Ideen sind keine Grenzen gesetzt.
 
