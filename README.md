@@ -1,9 +1,17 @@
 Hinweis : Das Programm befindet sich noch in der Testphase und wird ständig erweitert. Es ist keine fertige Version sondern nur eine Versuch, verschiedene Anwendungen auf einem Display zusammenzufassen. Es sind noch einige Fehler vorhanden.
 
+Dieses war mein erster Versuch, eine Wetterstation mit der Anzeige einer Solaranlage zu kombinieren. 
+Hierzu musste ich den den Code der Wetterstation auf das neue Farbdisplay umgeschreiben und die Aufteilung der einzelenen Felder neu geregen.
+Ebenso mussten die Internetanfragen für die Solaranlagen und den WLAN-Sensoren neu geschrieben und angepaßt werden.
+Das Problem war und ist, dass die WLAN-Sensoren und die Solaranlagensteurung alle paar Sekunden die Daten holen sollen, die Wetterstation aber nur alle 30 Minuten.
+An einer sauberen Lösung wird noch gearbeitet.
+
 ![Colorstation](https://github.com/user-attachments/assets/abc309b8-a76e-4789-b62d-9e85a6fdbd5d)
 
 
-Achtung ! Dieses sind Test-Versionen und noch nicht fertig. Sie werden laufend erweitert. Es sind noch Fehler im Script und müssen noch behoben werden ! 
+Achtung ! Dieses sind Test-Versionen und noch nicht fertig. 
+Diese Wetterstation wird laufend erweitert und verändert. Es sind daher noch Fehler im Code und müssen nach und nach behoben werden ! 
+
 Wenn etwas nicht funktitoniert, bitte selber anpassen und ändern. 
 
 Grundlage für ein funktionierendes Display sind folgende Internetseiten:
@@ -14,16 +22,20 @@ https://forum.squareline.io/t/howto-esp32-8048s070-board-for-arduino/1098.
 
 https://www.haraldkreuzer.net/aktuelles/erste-schritte-mit-dem-sunton-esp32-s3-7-zoll-display-lovyangfx-und-lvgl.
 
-Diese Internetseiten sind Grundlage und Arbeitsmaterial für das Display. Bitte vorher sorgfälltig durchlesen.
+Diese Internetseiten sind Grundlage und Arbeitsmaterial für das Display. Bitte vorher sorgfälltig durchlesen. 
+
+Plichtlektüre !!
 
 Als IDE wird Arduino 2.32 benutzte. Der Boardmanger für das ESP32 von Espressif muss unbedingt auf 2.0.17 eingestellt werden.
-Weitere Einstellungen sind unter "Settings" zu finden.
+Weitere Einstellungen der Werkzeuge sind unter "Settings" zu finden.
 
 Zum eigentlichen Code :
 
 Dieser Sketch ist eine Modifikation der bekannten Wetterstation von G6EJD. 
 
-Daher sollte man sich die entsprechende Seite einmal durchlesen um alle Funktionen zu begreifen.
+Daher sollte man sich die entsprechende Seite einmal durchlesen um alle Funktionen zu begreifen und zu verstehen.
+
+Hier der Link zur originalen Wetterstation :
 
 https://github.com/G6EJD/ESP32-e-Paper-Weather-Display. 
 
@@ -33,16 +45,17 @@ Diese Wetterstation wurde von mir an das 7-Zoll Farbdisplay ESP32-8048S070 angep
 
 https://www.makerfabs.com/sunton-esp32-s3-7-inch-tn-display-with-touch.html
 
-Die Wetteranzeige wird immer alle 30 Minuten aktualisert
+Die Wetteranzeige wird/soll immer alle 30 Minuten aktualisert
 
-Zusätzlich habe ich den gelben Bereich erschaffen. 
+In der ersten Version mit Solaranzeige habe ich den "gelben Bereich" erschaffen. 
 
-In diesem Bereich könne eigene Anwendungen oder Anzeigen eingebaut werden. 
-Diese laufen hier als „Sprite“ und werden regelmäßig erneuert. 
+In diesem Bereich könne auch eigene Anwendungen oder Anzeigen eingebaut werden. 
 
-Daher können hier und nur hier auch aktuelle Daten angezeigt werden.
+Diese laufen hier seperat als „Sprite“ (siehe TFTeSPI = > sprite) und werden regelmäßig durch "void loop()" erneuert. 
 
-In dem gelben Bereich wurde von mir die Anzeigen meiner Solaranlage eingebaut.
+Daher können hier und nur hier auch aktuelle Daten angezeigt werden, welche nicht nur alle 30 Minuten abgefragt werden sollen.
+
+In dem "gelben" Bereich wurde von mir zunächst die Anzeigen meiner Solaranlage eingebaut.
 
 Diese Solaranlage besteht aus zwei Hoymiles HMT2250T Invertern und ein Shelly 3EM zur Verbrauchsmessung im Haus.
 
@@ -51,13 +64,15 @@ Infos: https://github.com/tbnobody/OpenDTU  und https://github.com/helgeerbe/Ope
 
 Es wird die IP der OpenDTU-ESP32 und die jeweilige Inverter-Nummer benötigt. 
 
-Mein Code im Script funktioniert ausschließlich nur mit den OpenDTU-Battery den Hoymiles HMT2250T und dem Shelly 3EM ! 
-Sollten andere Geräte verwendet werden, ist der Code entsprechend anzupassen ! Hierfür kann ich keinen Service und Hilfe anbieten ! 
+Mein Code im Script funktioniert ausschließlich NURr mit den OpenDTU-Battery den Hoymiles HMT2250T und dem Shelly 3EM ! 
+
+Sollten andere Geräte bzw. Modelle verwendet werden, ist der Code entsprechend anzupassen ! Hierfür kann ich keinen Service und Hilfe anbieten ! 
 
 Die erforderlichen Daten der OpenDTUs werden als JSON-File ausgelesen und angezeigt. Im Internet gibt es genug Anleitungen dazu, wie dieses im Einzelnen umzusetzen ist und ensprechend angepasst werden kann.
 
-Weiterhin befindet sich im unteren Bereich des gelben Bereiches eine Anzeige für die Innen- und Aussentemperatur. Es werden DHT11 als Sensoen verwendet.
-Ein Sensor ist direkt am Display angeschlossen, der anderer DHT11 wird über einen ESP32 und dem WLAN  mit dem Display verbunden.
+Weiterhin befindet sich im unteren Bereich des gelben Bereiches eine Anzeige für die Innen- und Aussentemperatur. Es werden DHT11,DHT22 oder BME280 pp. als Sensoen verwendet.
+
+Ein Sensor ist direkt am Display angeschlossen, der anderer wird über einen ESP32 und dem WLAN  mit dem Display verbunden.
 
 Die Sensoren bestehen aus einem ESP32-WROOM mit einem DHT11, DHT22 oder BME280 Sensor. Die Daten werden über das WLAN-Funknetz zum Display übertragen und dort ausgewertet.
 Man kann auch andere Sensoren an dem ESP32-WROOM anschließen und die Werte überragen lassen. 
@@ -78,7 +93,8 @@ Hier der 2.WLAN-Sensor für eine zweite Temperaturanzeige (Garage / Keller pp.)
 
 Den Ideen sind keine Grenzen gesetzt.
 
-Damit ist mein Display universell für alles im Haushalt einsetzbar. Mit den WLAN-Sensoren könnten auch Schaltbefehle ausgelöst werden. 
+Damit ist mein Display universell für alles im Haushalt einsetzbar. 
+Mit den WLAN-Sensoren könnten auch Schaltbefehle ausgelöst werden.  
 Dazu must der Code entsprechend erweitert werden. (Http-Post). 
 
 Hierzu bitte folgende Hinweise lesen:
@@ -88,7 +104,7 @@ https://microcontrollerslab.com/esp32-rest-api-web-server-get-post-postman/
 
 Neues Update vom Oktober 2024:
 
-Hier mein neues Display, diesmal ohne (!) die Anzeige der Solaranlage
+Hier eine neue Display, diesmal ohne (!) die Anzeige der Solaranlage
 
 Dafür mit einer Anzeige der Wolkendecke (neu) und eine größeren Niederschlagsanzeige.
 
