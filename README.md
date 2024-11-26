@@ -2,7 +2,7 @@
 
 Hinweis : Das Programm befindet sich noch in der Testphase und wird ständig erweitert. Es ist keine fertige Version sondern nur eine Versuch, verschiedene Anwendungen auf einem Display zusammenzufassen. Es sind noch einige Fehler vorhanden.
 
-Dieses war mein erster Versuch, eine Wetterstation mit der Anzeige einer Solaranlage zu kombinieren. 
+Hier kommt mein erster Versuch, eine Wetterstation mit der Anzeige einer Solaranlage zu kombinieren. Wichtig war für mich, dass diese Wetterstation ein Farbdisplay hat.
 Hierzu musste ich den den Code der Wetterstation auf das neue Farbdisplay umgeschreiben und die Aufteilung der einzelenen Felder neu geregen.
 Ebenso mussten die Internetanfragen für die Solaranlagen und den WLAN-Sensoren neu geschrieben und angepaßt werden.
 Das Problem war und ist, dass die WLAN-Sensoren und die Solaranlagensteurung alle paar Sekunden die Daten holen sollen, die Wetterstation aber nur alle 30 Minuten.
