@@ -1,3 +1,5 @@
+![Colorstation](https://github.com/Zurrmaxe/ColorWeatherDisplay/blob/6b400cef94f60ac23cd17803fd36b069af87d63d/Weatherstation%20Kopie.jpg)
+
 Hinweis : Das Programm befindet sich noch in der Testphase und wird ständig erweitert. Es ist keine fertige Version sondern nur eine Versuch, verschiedene Anwendungen auf einem Display zusammenzufassen. Es sind noch einige Fehler vorhanden.
 
 Dieses war mein erster Versuch, eine Wetterstation mit der Anzeige einer Solaranlage zu kombinieren. 
