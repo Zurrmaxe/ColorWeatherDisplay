@@ -1,4 +1,4 @@
-![Colorstation](https://github.com/Zurrmaxe/ColorWeatherDisplay/blob/6b400cef94f60ac23cd17803fd36b069af87d63d/Weatherstation%20Kopie.jpg)
+![Colorstation](https://github.com/Zurrmaxe/ColorWeatherDisplay/blob/ce8959e54515f2e2c64bd91d8996a5df6dba04a5/Example/Color%20Weather%20Display%20new/22122024.jpg)
 
 Hinweis : Das Programm befindet sich noch in der Testphase und wird ständig erweitert. Es ist keine fertige Version sondern nur eine Versuch, verschiedene Anwendungen auf einem Display zusammenzufassen. Es sind noch einige Fehler vorhanden.
 
