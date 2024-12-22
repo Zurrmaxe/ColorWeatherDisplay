@@ -144,6 +144,7 @@ Version 24.11.2024 mit kleinern Verbesserungen und Änderungen an der Grafik
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/ca3d1c1dfed837a4f9e77ad2635e5faaa2ade7b9/241124.jpg)
 
 Hier sind die Einstellungen der Werkzeuge/IDE:
+
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDisplay/blob/8e5c1d9faaa0121a87b738e66f6dc6f722f3f42f/Example/Color%20Weather%20Display%20new/settings.png)
 
 
@@ -151,8 +152,10 @@ Achtung ! Wichtiger Hinweis:
 
 Der Code darf ausschließlich für private, nicht kommerzielle Zwecke verwendet werden. Der Hinweis auf die anderen Autoren muss vorhanden bleiben. 
 Jegliche gewerbliche Verwendung ist untersagt. Die weiteren Rechte der anderen Autoren bleiben hiervon unberührt. 
-Bei jeder Vervielfältigung sind die Rechte der jeweiligen Lizenzinhaber zu beachten. 
+Bei jeder Vervielfältigung sind die Rechte der jeweiligen Lizenzinhaber zu beachten und daruf hinzuweisen.
 
+It is not permitted to use the code for commercial purposes or advertising.
+不允許將該程式碼用於商業目的或廣告。
 
 Thanks to Bodmer, author of the TFT_eSPI library, for the inspiration to create this library.
 Thanks to all authors of the OpenDTU-Projekt and all other Users of github for insprations.
