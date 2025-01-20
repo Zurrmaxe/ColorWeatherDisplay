@@ -143,6 +143,10 @@ Version 24.11.2024 mit kleinern Verbesserungen und Änderungen an der Grafik
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/ca3d1c1dfed837a4f9e77ad2635e5faaa2ade7b9/241124.jpg)
 
+Version 20.01.2024 mit kleinen Verbessrungen und zusätzlicher Anzeige von daten einer Solaranlage
+
+
+
 Hier sind die Einstellungen der Werkzeuge/IDE:
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDisplay/blob/8e5c1d9faaa0121a87b738e66f6dc6f722f3f42f/Example/Color%20Weather%20Display%20new/settings.png)
