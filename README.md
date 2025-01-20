@@ -142,10 +142,14 @@ Hier mal eine ältere Version mit Schneefall :
 Version 24.11.2024 mit kleinern Verbesserungen und Änderungen an der Grafik
 
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDtu/blob/ca3d1c1dfed837a4f9e77ad2635e5faaa2ade7b9/241124.jpg)
+.
+.
 
-Version 20.01.2024 mit kleinen Verbessrungen und zusätzlicher Anzeige von daten einer Solaranlage
+Version 20.01.2024 mit kleinen Verbessrungen und zusätzlicher Anzeige von Daten einer Solaranlage
+.
 ![Colorstation new](https://github.com/Zurrmaxe/ColorWeatherDisplay/blob/19d601fa6fdc38ba088bc8a9bf54efd7a1ee86c1/Example/Color%20Weather%20Display%20with%20Solar%2020.01.25/200125.png)
-
+.
+.
 Neben der bekannten Wetteranzeige wurde hier die Anzeige einer Solaranlage mit eingebaut.
 Dazu benötigt werden zwei Hoymiles HMT2250T Inverter, ein Shelly3EM zur Leistungsmessung. 
 Die einegtlichen Daten kommen von einer OpenDTU-onBattery DTU. ( https://opendtu-onbattery.net/ )
